@@ -49,20 +49,20 @@ app.post('/addExpense', (req, res) => {
 
 // Default route
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
   console.log('Serving index.html');
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Route to serve add_property.html
 app.get('/add_property', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
   console.log('Serving index.html');
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Route to serve add_expense.html
 app.get('/add_expense', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'expense.html'));
   console.log('Serving expense.html');
+  res.sendFile(path.join(__dirname, 'public', 'expense.html'));
 });
 
 app.listen(8000, () => {
