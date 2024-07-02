@@ -1,0 +1,16 @@
+{
+    "name": "dashboard-project",
+    "version": "1.0.0",
+    "description": "A simple dashboard project using Node.js, Express, and Bootstrap.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "express": "^4.19.2"
+    }
+}
