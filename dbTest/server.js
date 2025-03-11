@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'sherwood',
+  password: '$h3rW00d',
   database: 'PropertyManagementSystem'
 });
 
